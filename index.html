@@ -5,187 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <header></header>
+<body>
+    <header class="header">
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+        <div>
+            <svg width="77" height="21" viewBox="0 0 77 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M4.85254 16.5723H12.6094V20H0.396484V1.51562H4.85254V16.5723ZM22.0293 20C21.877 19.7207 21.7415 19.3102 21.623 18.7686C20.8359 19.7588 19.7357 20.2539 18.3223 20.2539C17.0273 20.2539 15.9271 19.8646 15.0215 19.0859C14.1159 18.2988 13.6631 17.3128 13.6631 16.1279C13.6631 14.6383 14.2132 13.5127 15.3135 12.751C16.4137 11.9893 18.0133 11.6084 20.1123 11.6084H21.4326V10.8848C21.4326 9.6237 20.8867 8.99316 19.7949 8.99316C18.7793 8.99316 18.2715 9.49251 18.2715 10.4912H13.9932C13.9932 9.16243 14.556 8.08333 15.6816 7.25391C16.8158 6.42448 18.2588 6.00977 20.0107 6.00977C21.7627 6.00977 23.1465 6.43717 24.1621 7.29199C25.1777 8.14681 25.6982 9.31901 25.7236 10.8086V16.8896C25.7406 18.1507 25.9352 19.1156 26.3076 19.7842V20H22.0293ZM19.3506 17.207C19.8838 17.207 20.3239 17.0928 20.6709 16.8643C21.0264 16.6357 21.2803 16.3776 21.4326 16.0898V13.8936H20.1885C18.6989 13.8936 17.9541 14.5622 17.9541 15.8994C17.9541 16.2887 18.0853 16.6061 18.3477 16.8516C18.61 17.0885 18.9443 17.207 19.3506 17.207ZM32.0332 6.26367L32.1729 7.87598C33.1208 6.63184 34.4284 6.00977 36.0957 6.00977C37.526 6.00977 38.5924 6.43717 39.2949 7.29199C40.0059 8.14681 40.374 9.43327 40.3994 11.1514V20H36.1084V11.3291C36.1084 10.6351 35.9688 10.1273 35.6895 9.80566C35.4102 9.47559 34.9023 9.31055 34.166 9.31055C33.3281 9.31055 32.7061 9.64062 32.2998 10.3008V20H28.0215V6.26367H32.0332ZM42.2402 13.0303C42.2402 10.8551 42.71 9.14128 43.6494 7.88867C44.5889 6.63607 45.9007 6.00977 47.585 6.00977C48.8122 6.00977 49.8447 6.49219 50.6826 7.45703V0.5H54.9736V20H51.127L50.9111 18.5273C50.0309 19.6784 48.9137 20.2539 47.5596 20.2539C45.9261 20.2539 44.6312 19.6276 43.6748 18.375C42.7184 17.1224 42.2402 15.3408 42.2402 13.0303ZM46.5186 13.2969C46.5186 15.7344 47.2295 16.9531 48.6514 16.9531C49.5993 16.9531 50.2764 16.5553 50.6826 15.7598V10.5293C50.2933 9.7168 49.6247 9.31055 48.6768 9.31055C47.3564 9.31055 46.6413 10.377 46.5312 12.5098L46.5186 13.2969ZM61.918 20H57.627V6.26367H61.918V20ZM57.373 2.72168C57.373 2.1123 57.5931 1.61296 58.0332 1.22363C58.4733 0.83431 59.0446 0.639648 59.7471 0.639648C60.4495 0.639648 61.0208 0.83431 61.4609 1.22363C61.901 1.61296 62.1211 2.1123 62.1211 2.72168C62.1211 3.33105 61.901 3.8304 61.4609 4.21973C61.0208 4.60905 60.4495 4.80371 59.7471 4.80371C59.0446 4.80371 58.4733 4.60905 58.0332 4.21973C57.5931 3.8304 57.373 3.33105 57.373 2.72168ZM71.2109 20.2539C69.1035 20.2539 67.3981 19.6276 66.0947 18.375C64.7913 17.1139 64.1396 15.4762 64.1396 13.4619V13.1064C64.1396 11.7015 64.3978 10.4616 64.9141 9.38672C65.4388 8.31185 66.2005 7.48242 67.1992 6.89844C68.1979 6.30599 69.3828 6.00977 70.7539 6.00977C72.6836 6.00977 74.207 6.61068 75.3242 7.8125C76.4414 9.00586 77 10.6732 77 12.8145V14.4775H68.4941C68.6465 15.2477 68.9808 15.8529 69.4971 16.293C70.0133 16.7331 70.682 16.9531 71.5029 16.9531C72.8571 16.9531 73.915 16.4792 74.6768 15.5312L76.6318 17.8418C76.0986 18.5781 75.3411 19.1663 74.3594 19.6064C73.3861 20.0381 72.3366 20.2539 71.2109 20.2539ZM70.7285 9.31055C69.4759 9.31055 68.7311 10.14 68.4941 11.7988H72.8105V11.4688C72.8275 10.7832 72.654 10.2542 72.29 9.88184C71.9261 9.50098 71.4056 9.31055 70.7285 9.31055Z"
+                    fill="#37447E" />
+            </svg>
+        </div>
+        <button class="button buy">Buy Now</button>
+        <img class="menu-burger" src="./css/burger.svg" alt="menu">
+    </header>
+    <section>
+        <div class="container">
+            <div class="small-des"><img src="./images/small-des.svg" alt=""></div>
 
-    <section></section>
-    <section class="middle-maind">
-       <div class="container"> 
-        <div class="content-midlle">
-          <div class="img">
-            <img src="./pic-1.svg" alt="" />
-          </div>
-          <div class="text">
-            <h2 class="h2-header">Light, Fast & Powerful</h2>
-            <p class="p-header">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim.
+            <img class="designer" src="./images/designer_1.png" alt="">
+            <div class="common-text">
+                <div class="header-title">
+                    Introduce Your Product Quickly & Effectively
+                </div>
+                <p class="text first">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                    eget
+                    dolor.Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                </p>
+                <p class="text second">
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                    enim.
+                </p>
+            </div>
+            <div class="box-but">
+                <button class="button label1">Purchase UI Kit</button>
+                <button class="button label2">Learn More</button>
+            </div>
+        </div>
+
+        <section class="container main">
+        <div class="title">
+            <h2>Light, Fast & Powerful</h2>
+            <p class="text-main">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
             </p>
-          </div>
-        </div>
-        <div class="content-midlle">
-          <div class="img">
-            <img src="./pic-2.svg" alt="" />
-          </div>
-          <div class="text">
-            <h2 class="h2-header">Light, Fast & Powerful</h2>
-            <p class="p-header">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim.
+            <p class="text-small">
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
             </p>
-          </div>
-        </div>
-        <div class="content-midlle">
-          <div class="img">
-            <img src="./pic-3.svg" alt="" />
-          </div>
-          <div class="text">
-            <h2 class="h2-header">Light, Fast & Powerful</h2>
-            <p class="p-header">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim.
-            </p>
-          </div>
-        </div>
-      </div> 
-      
-    </section>
 
-    <section class="info-price">
-      <div class="info-content container">
-        <div class="info-content-2">
-          <h2 class="info-h2">A Price To Suit Everyone</h2>
-          <p class="infotext-1">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
-          </p>
-          <div class="logo-price">
-            <img src="./pic-4.svg" alt="" />
-          </div>
-          <p class="infotext-2">UI Design Kit</p>
-          <p class="infotext-3">See, One price. Simple.</p>
-        </div>
-      </div>
-    </section>
+        <div class="title-small">
+                <div class="box-small">
+                    <svg class="image-main" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M35.6226 22.2418C35.3938 22.1509 35.1326 22.2078 34.9626 22.3857L32.4001 25.0794V9.07988H32.4031L34.8481 6.4398C35.073 6.19672 35.0582 5.81686 34.8148 5.59191L34.8143 5.59136L33.9343 4.77231L35.1571 3.45227C35.3817 3.20892 35.3666 2.82933 35.1233 2.60465L32.4833 0.159586C32.2402 -0.0653648 31.8606 -0.0508075 31.6357 0.192546L27.3697 4.79895H6.60004C6.59811 3.14272 5.25613 1.80071 3.59995 1.79879H3.00009C1.3439 1.80071 0.00192261 3.14272 0 4.79895V30.5996C0 30.9309 0.268616 31.1995 0.600128 31.1995H9.6828L8.42267 32.7126C8.21091 32.9675 8.24551 33.3457 8.50012 33.5575L11.2668 35.8611C11.5214 36.0731 11.8998 36.0385 12.1119 35.7839L12.1122 35.7836L15.1831 32.0941C15.3951 31.8386 15.5316 31.5285 15.5767 31.1995H26.571L22.965 34.9863C22.7368 35.2263 22.7464 35.6062 22.9864 35.8344C23.0979 35.9405 23.246 35.9998 23.4001 35.9995H35.3999C35.7314 35.9995 36 35.7309 36 35.3997V22.7994C36 22.5538 35.8506 22.333 35.6226 22.2418ZM33 6.49067L32 8V26.3399L28.4574 30H15.8664C15.765 29.8338 15.6369 29.6852 15.487 29.5597L14.55 28.7923C13.7735 28.1562 12.6202 28.2598 11.9737 29.0239L11.1464 30H7V6H26.9791L23.7432 9.44093C23.6969 9.49229 23.6601 9.55162 23.6347 9.61561C23.6274 9.63292 23.6218 9.64912 23.6157 9.66725C23.6134 9.67412 23.6107 9.68102 23.6079 9.68801C23.6034 9.69921 23.5989 9.71062 23.5961 9.72246L22.8682 13.1472C22.7995 13.4716 23.0111 13.7893 23.3407 13.8569C23.4387 13.877 23.54 13.8731 23.6358 13.8456L27.0506 12.8665C27.0591 12.8638 27.0669 12.86 27.0746 12.8562L27.0746 12.8562L27.079 12.8541L27.0869 12.8504C27.0895 12.8493 27.0922 12.8482 27.095 12.8473C27.1103 12.8418 27.1262 12.8341 27.1427 12.8261C27.2111 12.7956 27.273 12.7525 27.3255 12.6995L32 7.72843V6.93838L32.6206 6L33 6.49067ZM30.945 5.67334V5.66507H30.9523L32 4.58357L30.2098 3L24 9.41643L25.7902 11L30.945 5.67334ZM25 11.714L24 12L24.2135 11L25 11.714ZM34 2.9461L31.9494 1L31 2.05194L33.0509 4L34 2.9461ZM2.71436 3H3.28564C4.23254 3 5 3.81843 5 4.82821V28C4.50824 27.5966 3.90583 27.3768 3.28564 27.3746H2.71436C2.09391 27.3768 1.49176 27.5966 1 28V4.82821C1 3.81843 1.76746 3 2.71436 3ZM3.28564 28H2.71436C1.76746 28 1 28.8956 1 30H5C5 28.8956 4.23254 28 3.28564 28ZM13.8825 31.5835L13.5581 32L12 30.6123L12.3239 30.1953C12.503 29.9652 12.8226 29.9339 13.0377 30.1255L13.0378 30.1256L13.0381 30.1258L13.8171 30.8179C14.0324 31.0093 14.0619 31.3511 13.883 31.5815L13.8825 31.582V31.5835ZM10 32.6375L11.6372 34L13 32.3628L11.363 31L10 32.6375ZM35 35V24L25 35H35ZM28.5557 33C28.3309 33 28.1282 32.8647 28.0423 32.6572C27.9563 32.4496 28.0039 32.2106 28.1628 32.0516L32.0517 28.1628C32.1557 28.0585 32.2971 28 32.4443 28C32.751 28 33 28.2485 33 28.5554V32.4446C33 32.7513 32.7513 33 32.4443 33H28.5557ZM22.2001 22.8009H26.3999C26.7314 22.8009 27 23.0695 27 23.4007C27 23.7322 26.7314 24.0009 26.4001 24.0009H9.60013C9.26862 24.0009 9 23.7322 9 23.4007C9 23.0695 9.26862 22.8009 9.60013 22.8009H13.7999V16.2007C13.8005 16.0416 13.8634 15.8889 13.9752 15.7758L17.5751 12.1757C17.8094 11.9414 18.1892 11.9414 18.4235 12.1757L22.0235 15.7758C22.1358 15.8886 22.1992 16.0414 22.2001 16.2007V22.8009ZM20 15L18 13L16 15H20ZM15 17H21.0002V22.9997H15V17ZM32 30L30 32H32V30ZM17 10H18V11H17V10ZM18 25H17V26H18V25Z" fill="black"/>
+                    </svg>
+                    <h4>Title Goes Here</h4>
+                    <div class="paragraf">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                </div>
+        </div>  
 
-    <footer>
-      <div class="container fotter-maim">
-        <div class="footer-top">
-          <p class="company">©2020 Yourcompany</p>
-          <div class="footer-logo">
-            <img src="./pic-5.svg" alt="" />
-          </div>
-          <a class="footer-button" href="#">Purchase now</a>
+        <span class="box-big">
+                    <svg class="image-main" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M35.6226 22.2418C35.3938 22.1509 35.1326 22.2078 34.9626 22.3857L32.4001 25.0794V9.07988H32.4031L34.8481 6.4398C35.073 6.19672 35.0582 5.81686 34.8148 5.59191L34.8143 5.59136L33.9343 4.77231L35.1571 3.45227C35.3817 3.20892 35.3666 2.82933 35.1233 2.60465L32.4833 0.159586C32.2402 -0.0653648 31.8606 -0.0508075 31.6357 0.192546L27.3697 4.79895H6.60004C6.59811 3.14272 5.25613 1.80071 3.59995 1.79879H3.00009C1.3439 1.80071 0.00192261 3.14272 0 4.79895V30.5996C0 30.9309 0.268616 31.1995 0.600128 31.1995H9.6828L8.42267 32.7126C8.21091 32.9675 8.24551 33.3457 8.50012 33.5575L11.2668 35.8611C11.5214 36.0731 11.8998 36.0385 12.1119 35.7839L12.1122 35.7836L15.1831 32.0941C15.3951 31.8386 15.5316 31.5285 15.5767 31.1995H26.571L22.965 34.9863C22.7368 35.2263 22.7464 35.6062 22.9864 35.8344C23.0979 35.9405 23.246 35.9998 23.4001 35.9995H35.3999C35.7314 35.9995 36 35.7309 36 35.3997V22.7994C36 22.5538 35.8506 22.333 35.6226 22.2418ZM33 6.49067L32 8V26.3399L28.4574 30H15.8664C15.765 29.8338 15.6369 29.6852 15.487 29.5597L14.55 28.7923C13.7735 28.1562 12.6202 28.2598 11.9737 29.0239L11.1464 30H7V6H26.9791L23.7432 9.44093C23.6969 9.49229 23.6601 9.55162 23.6347 9.61561C23.6274 9.63292 23.6218 9.64912 23.6157 9.66725C23.6134 9.67412 23.6107 9.68102 23.6079 9.68801C23.6034 9.69921 23.5989 9.71062 23.5961 9.72246L22.8682 13.1472C22.7995 13.4716 23.0111 13.7893 23.3407 13.8569C23.4387 13.877 23.54 13.8731 23.6358 13.8456L27.0506 12.8665C27.0591 12.8638 27.0669 12.86 27.0746 12.8562L27.0746 12.8562L27.079 12.8541L27.0869 12.8504C27.0895 12.8493 27.0922 12.8482 27.095 12.8473C27.1103 12.8418 27.1262 12.8341 27.1427 12.8261C27.2111 12.7956 27.273 12.7525 27.3255 12.6995L32 7.72843V6.93838L32.6206 6L33 6.49067ZM30.945 5.67334V5.66507H30.9523L32 4.58357L30.2098 3L24 9.41643L25.7902 11L30.945 5.67334ZM25 11.714L24 12L24.2135 11L25 11.714ZM34 2.9461L31.9494 1L31 2.05194L33.0509 4L34 2.9461ZM2.71436 3H3.28564C4.23254 3 5 3.81843 5 4.82821V28C4.50824 27.5966 3.90583 27.3768 3.28564 27.3746H2.71436C2.09391 27.3768 1.49176 27.5966 1 28V4.82821C1 3.81843 1.76746 3 2.71436 3ZM3.28564 28H2.71436C1.76746 28 1 28.8956 1 30H5C5 28.8956 4.23254 28 3.28564 28ZM13.8825 31.5835L13.5581 32L12 30.6123L12.3239 30.1953C12.503 29.9652 12.8226 29.9339 13.0377 30.1255L13.0378 30.1256L13.0381 30.1258L13.8171 30.8179C14.0324 31.0093 14.0619 31.3511 13.883 31.5815L13.8825 31.582V31.5835ZM10 32.6375L11.6372 34L13 32.3628L11.363 31L10 32.6375ZM35 35V24L25 35H35ZM28.5557 33C28.3309 33 28.1282 32.8647 28.0423 32.6572C27.9563 32.4496 28.0039 32.2106 28.1628 32.0516L32.0517 28.1628C32.1557 28.0585 32.2971 28 32.4443 28C32.751 28 33 28.2485 33 28.5554V32.4446C33 32.7513 32.7513 33 32.4443 33H28.5557ZM22.2001 22.8009H26.3999C26.7314 22.8009 27 23.0695 27 23.4007C27 23.7322 26.7314 24.0009 26.4001 24.0009H9.60013C9.26862 24.0009 9 23.7322 9 23.4007C9 23.0695 9.26862 22.8009 9.60013 22.8009H13.7999V16.2007C13.8005 16.0416 13.8634 15.8889 13.9752 15.7758L17.5751 12.1757C17.8094 11.9414 18.1892 11.9414 18.4235 12.1757L22.0235 15.7758C22.1358 15.8886 22.1992 16.0414 22.2001 16.2007V22.8009ZM20 15L18 13L16 15H20ZM15 17H21.0002V22.9997H15V17ZM32 30L30 32H32V30ZM17 10H18V11H17V10ZM18 25H17V26H18V25Z" fill="black"/>
+                    </svg>                        
+                    <h4>Title Goes Here</h4>
+                    <div class="paragraf">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                    </div>
+        </span>
+                </div>
+            </div>    
         </div>
-        <div class="mobile-vergin">
-          <div class="mobile-left">
-            <img src="./pic-5.svg" alt="" />
-          </div>
-          <div class="mobile-right">
-            <p class="company">©2020 Yourcompany</p>
-            <a class="footer-button" href="#">Purchase now</a>
-          </div>
+        <div class="pic-main">
+            <img class="pic-b" src="./images/undraw_mobile_login_ikmv.png" alt="">
         </div>
-        <div class="line"></div>
-        <div class="footer-bottom">
-          <menu>
-            <li class="footer-link">Home</li>
-            <li class="footer-link about" >About</li>
-            <li class="footer-link">Contact</li>
-          </menu>
-          <div class="sotial-icon">
-            <div class="icon">
-              <svg
-                width="8"
-                height="16"
-                viewBox="0 0 8 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 5.5V3.5C5 2.948 5.448 2.5 6 2.5H7V0H5C3.343 0 2 1.343 2 3V5.5H0V8H2V16H5V8H7L8 5.5H5Z"
-                  fill="#B0B8BC"
-                />
-              </svg>
-            </div>
-            <div class="icon">
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4 2C4 3.10457 3.10457 4 2 4C0.895431 4 0 3.10457 0 2C0 0.895431 0.895431 0 2 0C3.10457 0 4 0.895431 4 2ZM0 16V5H4V16H0ZM13.2998 5.12119C13.2954 5.11973 13.2909 5.11825 13.2864 5.11678C13.2616 5.10856 13.2367 5.10033 13.21 5.093C13.162 5.082 13.114 5.073 13.065 5.065C12.875 5.027 12.667 5 12.423 5C10.337 5 9.014 6.517 8.578 7.103V5H5V16H8.578V10C8.578 10 11.282 6.234 12.423 9V16H16V8.577C16 6.915 14.861 5.53 13.324 5.129C13.3159 5.12643 13.3078 5.12382 13.2998 5.12119Z"
-                  fill="#B0B8BC"
-                />
-              </svg>
-            </div>
-            <div class="icon">
-              <svg
-                width="16"
-                height="13"
-                viewBox="0 0 16 13"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 1.539C15.405 1.8 14.771 1.973 14.11 2.057C14.79 1.651 15.309 1.013 15.553 0.244C14.919 0.622 14.219 0.889 13.473 1.038C12.871 0.397 12.013 0 11.077 0C9.261 0 7.799 1.474 7.799 3.281C7.799 3.541 7.821 3.791 7.875 4.029C5.148 3.896 2.735 2.589 1.114 0.598C0.831 1.089 0.665 1.651 0.665 2.256C0.665 3.392 1.25 4.399 2.122 4.982C1.595 4.972 1.078 4.819 0.64 4.578C0.64 4.588 0.64 4.601 0.64 4.614C0.64 6.208 1.777 7.532 3.268 7.837C3.001 7.91 2.71 7.945 2.408 7.945C2.198 7.945 1.986 7.933 1.787 7.889C2.212 9.188 3.418 10.143 4.852 10.174C3.736 11.047 2.319 11.573 0.785 11.573C0.516 11.573 0.258 11.561 0 11.528C1.453 12.465 3.175 13 5.032 13C11.068 13 14.368 8 14.368 3.666C14.368 3.521 14.363 3.381 14.356 3.242C15.007 2.78 15.554 2.203 16 1.539Z"
-                  fill="#B0B8BC"
-                />
-              </svg>
-            </div>
-            <div class="icon">
-              <svg
-                width="16"
-                height="11"
-                viewBox="0 0 16 11"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.456 0.092C14.415 0.146 14.886 0.288 15.32 1.06C15.772 1.831 16 3.159 16 5.498V5.501V5.506C16 7.834 15.772 9.172 15.321 9.935C14.887 10.707 14.416 10.847 13.457 10.912C12.498 10.967 10.089 11 8.002 11C5.911 11 3.501 10.967 2.543 10.911C1.586 10.846 1.115 10.706 0.677 9.934C0.23 9.171 0 7.833 0 5.505V5.503V5.5V5.497C0 3.159 0.23 1.831 0.677 1.06C1.115 0.287 1.587 0.146 2.544 0.091C3.501 0.027 5.911 0 8.002 0C10.089 0 12.498 0.027 13.456 0.092ZM11 6L6 3V9L11 6Z"
-                  fill="#B0B8BC"
-                />
-              </svg>
-            </div>
-            <div class="icon">
-              <svg
-                width="16"
-                height="11"
-                viewBox="0 0 16 11"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.456 0.092C14.415 0.146 14.886 0.288 15.32 1.06C15.772 1.831 16 3.159 16 5.498V5.501V5.506C16 7.834 15.772 9.172 15.321 9.935C14.887 10.707 14.416 10.847 13.457 10.912C12.498 10.967 10.089 11 8.002 11C5.911 11 3.501 10.967 2.543 10.911C1.586 10.846 1.115 10.706 0.677 9.934C0.23 9.171 0 7.833 0 5.505V5.503V5.5V5.497C0 3.159 0.23 1.831 0.677 1.06C1.115 0.287 1.587 0.146 2.544 0.091C3.501 0.027 5.911 0 8.002 0C10.089 0 12.498 0.027 13.456 0.092ZM11 6L6 3V9L11 6Z"
-                  fill="#B0B8BC"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+</body>
+
 </html>
