@@ -7,6 +7,10 @@
     font-weight: 500;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
