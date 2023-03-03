@@ -346,7 +346,7 @@ menu li:last-child {
 
 
 
-@media screen and (max-width: 00px) {
+@media screen and (max-width: 400px) {
     .header {
         padding: 12px 16px;
         align-items: center;
